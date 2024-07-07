@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 50%;
+}
+.header .half-width-1 {
+  width: 70%;
+}
+.header .half-width-1 .navbar {
+  height: 20%;
+}
+.header .half-width-1 .navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 80px;
+  flex-direction: row;
+  margin-top: 35px;
+  margin-bottom: 430px;
+}
+.header .half-width-1 .navbar li {
+  list-style: none;
+}
+.header .half-width-2 {
+  width: 30%;
+}
+.header .half-width-2 img {
+  width: 390px;
+  height: 500px;
+  margin-left: 180px;
+}
+
+.main {
+  height: 50%;
+  margin-top: -420px;
+}
+.main .hero-text {
+  text-align: center;
+  align-items: center;
+  margin-left: 500px;
+  text-align: left;
+}
+.main .hero-text h1 {
+  font-size: 120px;
+}
+.main .hero-text .small-text {
+  display: flex;
+  gap: 50px;
+}
+.main .hero-text button {
+  margin-top: 20px;
+  width: 230px;
+  height: 60px;
+  font-size: 18px;
+  background-color: #ffdbac;
+  border: none;
+  outline: none;
+}
+
+.work {
+  margin-top: 40px;
+}
+.work .container {
+  width: 85%;
+  margin-left: 120px;
+}
+.work .container h1 {
+  font-size: 80px;
+}
+.work .container .text-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.work .container .text-section-1 {
+  font-size: 22px;
+}
+.work .container .text-section-2-flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 9px;
+  gap: 17px;
+}
+.work .container .text-section-2-flex-1, .work .container .text-section-2-flex-2, .work .container .text-section-2-flex-3 {
+  background-color: #A9A9A9;
+  border: none;
+  outline: none;
+  border-radius: 45%;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 12px;
+}
+.work .container .text-section-2-flex-1-design, .work .container .text-section-2-flex-1-research, .work .container .text-section-2-flex-2-design, .work .container .text-section-2-flex-2-research, .work .container .text-section-2-flex-3-design, .work .container .text-section-2-flex-3-research {
+  background-color: #A9A9A9;
+  border: none;
+  outline: none;
+  border-radius: 45%;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 12px;
+  width: 90px;
+}/*# sourceMappingURL=style.css.map */

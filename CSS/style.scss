@@ -214,7 +214,7 @@
             h2 {
                 
                 height: 100px;
-                width: 270px;
+                width: 280px;
                 font-size:60px;
                 color: #999999;
                 font-weight: 700;
@@ -225,7 +225,7 @@
             }
 
             p {
-                width: 405px;
+                width: 415px;
                 height: 132px;
                 font-size: 18px;
                 color: #999999;
@@ -239,6 +239,99 @@
             height: 590px;
             background-repeat: no-repeat;
             background-position: center;
+        }
+    }
+}
+
+.projects-section-3 {
+
+    margin-top: 90px;
+    &-div {
+        width: 1151px;
+        height: 590px;
+
+
+        &-1 {
+            background-image: url("../Images/background-image-3.png");
+            background-repeat: no-repeat;
+            width: 662px;
+            height: 590px;
+            background-position: center;
+            margin-left: 100px;
+        }
+
+        &-2 {
+            height:590px;
+            width:489px;
+            padding-top: 140px;
+
+            h2 {
+                font-size: 60px;
+                width: 270px;
+                height: 90px;
+                color: #999999;
+                font-weight: 700;
+            }
+
+            p {
+                font-size: 18px;
+                width: 409px;
+                height: 132px;
+                color: #999999;
+            }
+        }
+    }
+  
+}
+
+.about {
+    width: 251px;
+    height: 120px;
+    margin-top: 90px;
+    margin-left: 0px;
+    h2 {
+        font-size: 80px;
+        color: #999999;
+        width: 251px;
+        height: 120px;
+        margin-left: 90px;
+    }
+
+    &-text-section {
+        width: 1202px;
+        height: 252px;
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            color: #999999;
+        }
+    }
+
+    &-image-section {
+        justify-content: center;
+        align-items: center;
+        margin-left: 70px;
+        width: 1202px;
+        height: 416px;
+
+        background-image: url("../Images/background-image-4.png");
+        width: 1202px;
+        // height: 286px;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        position: relative;
+
+        img {
+            position: absolute;
+            z-index: 5;
+            width: 430px;
+            height: 276px;
+            // margin-top: 90px;
+            top: 200px;
+            right: 220px;
+            margin-left: 90px;
         }
     }
 }

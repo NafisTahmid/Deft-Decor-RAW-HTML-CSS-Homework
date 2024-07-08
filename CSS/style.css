@@ -72,10 +72,6 @@
 .work {
   margin-top: 40px;
 }
-.work .container {
-  width: 85%;
-  margin-left: 120px;
-}
 .work .container h1 {
   font-size: 80px;
 }
@@ -152,6 +148,7 @@
   width: 402px;
   height: 132px;
   color: #999999;
+  line-height: 33px;
 }
 
 .projects-section-2 {
@@ -180,6 +177,7 @@
   font-size: 18px;
   color: #999999;
   text-align: right;
+  line-height: 33px;
 }
 .projects-section-2-div-2 {
   background-image: url("../Images/background-image-2.png");
@@ -197,7 +195,7 @@
   height: 590px;
 }
 .projects-section-3-div-1 {
-  background-image: url("../Images/background-image-3.png");
+  background-image: url("../Images/background-Image-3.png");
   background-repeat: no-repeat;
   width: 662px;
   height: 590px;
@@ -221,6 +219,7 @@
   width: 409px;
   height: 132px;
   color: #999999;
+  line-height: 33px;
 }
 
 .about {
@@ -244,6 +243,7 @@
   font-size: 18px;
   font-weight: 400;
   color: #999999;
+  line-height: 36px;
 }
 .about-image-section {
   justify-content: center;
@@ -265,6 +265,57 @@
   top: 200px;
   right: 220px;
   margin-left: 90px;
+}
+.about-text-section-2 {
+  width: 544px;
+  height: 108px;
+}
+.about-text-section-2 p {
+  font-size: 18px;
+  color: #999999;
+  margin-left: 69px;
+  line-height: 36px;
+}
+.about-text-section-3 {
+  width: 1202px;
+  height: 252px;
+}
+.about-text-section-3 p {
+  font-size: 18px;
+  color: #999999;
+  font-weight: 400;
+  line-height: 36px;
+  margin-left: 69px;
+}
+.about-autograph-section {
+  width: 188px;
+  height: 700px;
+}
+.about-autograph-section h2 {
+  font-family: "Licorice", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: 80px;
+  letter-spacing: 1.71px;
+  margin-right: -1px;
+}
+
+/* Ensure the footer is centered and at the bottom */
+.footer {
+  width: 100%;
+  background-color: #D8D8D8;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: -4000px;
+  margin-top: -900px;
+}
+
+.footer-text-1 p, .footer-text-2 {
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.39px;
+  color: #999999;
 }
 
 @media (max-width: 1440px) {
